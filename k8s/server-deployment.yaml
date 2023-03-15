@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: tutv1988/multi-server-k8s:latest
+          image: cygnetops/multi-server-pgfix-5-11
           ports:
             - containerPort: 5000
           env:
